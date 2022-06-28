@@ -38,7 +38,7 @@
             "metadata": {
                 "description": "The location of resources, such as templates and DSC modules, that the template depends on"
             },
-            "defaultValue": "[deployment().properties.templateLink.uri]"
+            "defaultValue": "[deployment().properties.template.uri]"
         },
         "_artifactsLocationSasToken": {
             "type": "securestring",
